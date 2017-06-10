@@ -1,0 +1,137 @@
+body {
+
+	margin: 0;
+
+	background-color:#FFFFFF;
+	
+}
+
+td, p { font-size: 11px; font-family: Verdana, Arial, sans-serif; font-weight: normal; color:#00066F; }
+
+fieldset { border: 1px solid; border-color: #5271CC; }
+legend { font-size: 11; font-family: Verdana, Arial, sans-serif; font-weight: bold; color:#00066F; }
+
+input, select, textarea { font-size: 11; font-family: Verdana, Arial, sans-serif; font-weight: normal; color:#000000; }
+
+form { margin: 0px; }
+
+.heading { font-size: 14; font-family: Arial, sans-serif; font-weight: bold; color:#001061; text-transform: uppercase; }
+.heading_left { padding-left:7; padding-right:7; width:270; 
+	FILTER: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+	font-size: 14; font-family: Arial, sans-serif; font-weight: bold; color:#E2ECFF; text-transform: uppercase; }
+
+
+.box { background-color:#FFFFFF; }
+
+.box_text { background-color:#164093; padding-left:3; padding-right:3;
+ cursor:default; font-weight: normal; color:#B0DDFF; }
+
+.box_heading { padding-left:3; padding-right:3; cursor:default; font-weight: bold; color:#7AA6FF; }
+
+.label { font-size: 11; font-family: Verdana, Arial, sans-serif; font-weight: bold; color:#00066F; }
+
+.label_grey { font-size: 11; font-family: Verdana, Arial, sans-serif; font-weight: bold; color:#AAAAAA; }
+
+.subject { background-color: #ABC4E5; font-weight: bold; padding-left: 3; border-color: #001061; border-width:1; border-style:solid; }
+
+iframe { border:2px inset #98C2F7; }
+
+.outer_table { background-color: #F2F3FF; }
+
+.faceBackground { background-color: #F2F3FF; }
+
+.table_head { border-left: background-color: #FFFFFF; }
+
+//.table_body { border: 1px dotted #001061; }
+
+.section_body { border-bottom: 1px solid #5271CC; }
+
+.outer_table_heading { font-size: 14; font-family: Verdana, Arial, sans-serif; cursor:default; font-weight: bold; color: #000000; }
+
+.outer_table_action { font-size: 11; font-family: Verdana, Arial, sans-serif; font-weight: bold; color: #001061; }
+
+.inner_table_head { border-bottom: 1px solid #5271CC; background-color: #433B94; }
+
+.inner_table_column_heading { font-weight: bold; color: #FFFFFF; }
+
+//.table_bottom_panel { border-left: 1px dotted #000000; border-right: 1px dotted #000000; border-bottom: 1px dotted #000000; background-color: #C0C0C0; }
+/*.table_bottom_panel { 
+	border-left: 1px solid #000000; 
+	border-right: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+	border-right: 1px solid #000000;
+	background-color: #C0C0C0; }*/
+	
+.bottom_panel_button { font-size: 11; font-family: Verdana, Arial, sans-serif; }
+
+.project_title { font-size: 11; font-family: Verdana, Arial, sans-serif; font-weight: bold; color: #00066F; }
+
+.project_status { font-size: 11; font-family: Verdana, Arial, sans-serif; color: #9494B7; }
+
+.calendar_cell_disabled_middle { border-bottom: 1px solid #5271CC; border-right: 1px solid #5271CC; background-color: #C4C4C4; }
+
+.calendar_cell_disabled_right { border-bottom: 1px solid #5271CC; background-color: #C4C4C4; }
+
+.calendar_cell_middle { border-bottom: 1px solid #5271CC; border-right: 1px solid #5271CC; background-color: #F2F3FF; }
+
+.calendar_cell_right { border-bottom: 1px solid #5271CC; background-color: #F2F3FF; }
+
+.calendar_totals_line_monthly { font-size: 10; font-family: Verdana, Arial, sans-serif; font-weight: bold; color: black; background-color: #fff0f0; }
+
+.calendar_total_value_monthly { font-size: 10; font-family: Verdana, Arial, sans-serif; font-weight: bold; color: red; }
+
+.calendar_totals_line_weekly { border-bottom: 1px solid #5271CC; font-size: 10; font-family: Verdana, Arial, sans-serif; font-weight: normal; color: black;  background-color: #EAEAEA; }
+
+.calendar_totals_line_weekly_right { border-bottom: 1px solid #5271CC; border-right: 1px solid #5271CC; font-size: 10; font-family: Verdana, Arial, sans-serif; font-weight: normal; color: black;  background-color: #EAEAEA; }
+
+.calendar_total_value_weekly { font-size: 10; font-family: Verdana, Arial, sans-serif; font-weight: bold; color: red; }
+
+.calendar_day_heading { font-weight: bold; color: #FFFFFF; }
+
+//.clock_on_box { border: 1px solid #00BF00; background-color: #EAEAEA; }.clock_on_box { border: 1px solid #00BF00; }
+//.clock_off_box { border: 1px solid #FF1010; background-color: #EAEAEA; }
+.clock_off_box { border: 1px solid #FF1010; }
+
+.clock_on_text { color: #00BF00; }
+
+.clock_off_text { color: #FF1010; }
+
+.grey_area { background-color: #FFFFFF; }
+
+.timesheet_logo { font-size: 20; font-family: Arial, sans-serif; font-weight: bold; font-style: italic; color: #CCCCE0; }
+
+.white_heading { font-size: 20; font-family: Arial, sans-serif; font-weight: bold; font-style: italic; color: #4C4C80; }
+
+.client_name_small { font-size: 9; font-family: Tahoma, Arial, sans-serif; color: 555555; font-weight: bold; }
+.project_name_small { font-size: 9; font-family: Tahoma, Arial, sans-serif; color: E9AD4D; font-weight: bold; }
+.task_name_small { font-size: 9; font-family: Tahoma, Arial, sans-serif; color: 00066F; font-weight: bold; }
+.task_time_small { font-size: 9; font-family: Tahoma, Arial, sans-serif; color: 00066F; }
+.task_time_total_small { font-size: 9; font-family: Tahoma, Arial, sans-serif; color: red; }
+
+
+.project_task_list { height: 80px; overflow: auto; padding-left: 5px; padding-right: 5px; margin: 5; border: 1px solid #5271CC; }
+
+a:link { color: #00066F; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; }
+a:visited { color: #00066F; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; }
+a:hover { color: #9494B7; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; }
+
+.disabledLink { color: #BBBBBB; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; }
+
+.bottom_bar_text { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #BAC7EE; }
+
+.command:link { color: #000788; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; font-size: 11; }
+.command:visited { color: #000788; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; font-size: 11; }
+.command:hover { color: #6D72C6; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; font-size: 11; }
+
+.command_current { color: #6D72C6; font-weight: bold; font-family: Verdana, Arial, sans-serif; text-decoration: none; font-size: 11; }
+
+.login_image { background-image: url(/timesheet/images/logo.gif); width: 136; height: 46; margin-right: 20; }
+
+.face_padding_cell { padding: 5px; background: #FFFFFF; }
+
+.simple_border { 
+		border-left: 1px solid #5271CC; 
+		border-top: 1px solid #5271CC; 
+		border-right: 1px solid #5271CC; 
+		border-bottom: 1px solid #5271CC; 
+		background-color: #E0EEFF; }
